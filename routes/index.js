@@ -14,10 +14,6 @@ router.get('/contact', function(req, res, next) {
   res.render('contact', { title: ' My contact info' });
 });
 
-router.get('/home', function(req, res, next) {
-  res.render('home', { title: 'Home Page' });
-});
-
 router.get('/projects', function(req, res, next) {
   res.render('projects', { title: 'About my projects' });
 });
